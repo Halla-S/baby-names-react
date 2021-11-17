@@ -1,25 +1,24 @@
-import logo from "./logo.svg";
 import "./App.css";
-
-function App() {
+import babyNamesData from "./babyNamesData.json";
+let babyNames = babyNamesData;
+babyNames = babyNames.sort((item1, item2) =>
+  item1.name.localeCompare(item2.name));
+const BabyNames = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="myDiv">
+      <ul>
+        {props.data.map((item, index) => (
+          <li key={index} className={item.sex === "f" ? "pink" : "blue"}>
+            {item.name}
+          </li>
+        ))}
+      </ul>
     </div>
   );
+};
+
+function App() {
+  return <BabyNames data={babyNames} />;
 }
 
 export default App;
