@@ -12,7 +12,7 @@
 }
 
 .blue {
-  background: rgb(82, 95, 5);
+  background: rgba(82, 95, 5, 0.103);
   display: inline-block;
   font-size: xx-large;
   color: rgb(203, 233, 107);

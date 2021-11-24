@@ -24,6 +24,8 @@ const BabyNames = (props) => {
                   .includes(searchTerm.toLocaleLowerCase())
               ) {
                 return babyName;
+              }else{
+                return false;
               }
             })
             .map((item, index) => (
