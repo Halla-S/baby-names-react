@@ -12,10 +12,10 @@
 }
 
 .blue {
-  background: rgba(82, 95, 5, 0.103);
+  background: rgb(26 138 67);
   display: inline-block;
   font-size: xx-large;
-  color: rgb(203, 233, 107);
+  color: rgb(57, 66, 27);
   margin: 3px;
   border-radius: 5px;
 }
@@ -30,6 +30,6 @@
 input{
   margin:3% 40%;
   height: 1.5rem;
-  border-color: rgb(156, 202, 5);
+  border-color: rgb(120, 153, 11);
   border-radius: 5px;
 }
