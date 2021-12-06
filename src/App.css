@@ -4,7 +4,7 @@
 .myDiv {
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 90%;
   margin: 2% auto;
   border: 5px solid rgb(202, 108, 108);
   border-radius: 5px;
@@ -14,7 +14,7 @@
 .blue {
   background: rgb(26 138 67);
   display: inline-block;
-  font-size: xx-large;
+  font-size: x-large;
   color: rgb(57, 66, 27);
   margin: 3px;
   border-radius: 5px;
@@ -22,7 +22,7 @@
 .pink {
   background: rgb(192, 8, 94);
   display: inline-block;
-  font-size: xx-large;
+  font-size: x-large;
   color: rgb(246, 176, 190);
   margin: 3px;
   border-radius: 5px;
