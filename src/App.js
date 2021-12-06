@@ -34,7 +34,7 @@ const BabyNames = (props) => {
       ></input>
       <>
         <div className="myDiv Div">
-          <h2>Favorite Namaes</h2>
+          <h2>Favorite Names</h2>
           <ul>
             {addlist
               .filter((babyName) => {
