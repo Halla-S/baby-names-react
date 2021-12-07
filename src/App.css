@@ -12,25 +12,25 @@
 }
 
 .blue {
-  background: rgb(26 138 67);
+  background: rgb(23, 240, 229);
   display: inline-block;
   font-size: x-large;
-  color: rgb(57, 66, 27);
+  color: rgb(38, 26, 206);
   margin: 3px;
   border-radius: 5px;
 }
 .pink {
-  background: rgb(192, 8, 94);
+  background:rgb(153, 72, 185) ;
   display: inline-block;
   font-size: x-large;
-  color: rgb(246, 176, 190);
+  color: rgb(204, 203, 218);
   margin: 3px;
   border-radius: 5px;
 }
 input{
   margin:3% 40%;
   height: 1.5rem;
-  border-color: rgb(120, 153, 11);
+  border-color: rgb(194, 216, 121);
   border-radius: 5px;
 }
 .Div{
@@ -38,5 +38,8 @@ input{
   flex-direction: column;
   text-align: center;
   padding-top: 0.5rem;
+}
+li{
+  cursor: pointer;
 }
 
