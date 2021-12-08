@@ -29,7 +29,7 @@ const Buttons = (props) => {
   const All = props.data;
   console.log(props.data);
   return (
-    <>
+    <div className="buttonsContainer">
       <button
         className={clickedG ? "button g active" : "button g "}
         onClick={clickedGirlsNames}
@@ -48,7 +48,7 @@ const Buttons = (props) => {
       >
         All
       </button>
-    </>
+    </div>
   );
 };
 export default Buttons;

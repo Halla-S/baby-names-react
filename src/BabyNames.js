@@ -23,7 +23,8 @@ const BabyNames = (props) => {
     setAddList(removedFromFav);
   }
   return (
-    <div>
+    <div className="mainContainer">
+      <h2>Name Picker</h2>
       <Buttons
         data={props.data}
         SearchingGirls={(list) => setList(list)}
