@@ -20,26 +20,50 @@
   border-radius: 5px;
 }
 .pink {
-  background:rgb(153, 72, 185) ;
+  background: rgb(153, 72, 185);
   display: inline-block;
   font-size: x-large;
   color: rgb(204, 203, 218);
   margin: 3px;
   border-radius: 5px;
 }
-input{
-  margin:3% 40%;
-  height: 1.5rem;
-  border-color: rgb(194, 216, 121);
+input {
+  margin-top: 0rem;
+  margin-left: 80%;
+  height: 2rem;
+  border-color: rgb(138, 158, 70);
   border-radius: 5px;
 }
-.Div{
+.Div {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding-top: 0.5rem;
 }
-li{
+li {
   cursor: pointer;
 }
-
+.button {
+  margin: 2rem;
+  width: 4rem;
+  border-radius: 5px;
+  border-style: none;
+  height: 2rem;
+  font-weight: 700;
+}
+.g {
+  background: rgb(153, 72, 185);
+  color: rgb(204, 203, 218);
+}
+.b {
+  background: rgb(23, 240, 229);
+  color: rgb(38, 26, 206);
+}
+.a {
+  background: rgb(226, 191, 32);
+}
+.active {
+  border-style: solid;
+  border-color: rgb(0, 132, 255);
+  border-width: 4px;
+}
